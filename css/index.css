@@ -1,0 +1,128 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+html, body{
+   height: 100%;
+}
+body {
+   background: linear-gradient(#000, #000250, #9e0098);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.B{
+   position: absolute;
+   width: 15%;
+   align-self: center;  
+   height: 50px;
+   border-radius: 30px;
+   color: white;
+   border: transparent;
+   transition: 1s;
+}
+.Blog{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   border-radius: 30px;
+   z-index: 1000;
+   border: 2px solid black;
+   background: transparent;
+   cursor: pointer;
+   transition: 1s;
+}
+.Blog:hover{
+   background: black;
+   color: white;
+   border: 2px solid white;
+}
+.BLeft{
+   left: 18%;
+}
+.BRight{
+   right: 18%;
+}
+.hidden-btn{
+   opacity: 0;
+}
+.hidden{
+   opacity: 0;
+   position: absolute;
+   top: 0em;
+}
+.visible-button{
+   opacity: 1;
+   position: absolute;
+   top: 45%;
+}
+.content-page{
+   background: rgba(255, 255, 255, 0.2);
+   position: absolute;
+   border-radius: 20px;
+   width: 40%;
+   height: 650px;
+   top: -25px;
+   transition: 1s;
+}
+.page-left{
+   transform: translateX(13%);
+}
+.page-right{
+   transform: translateX(138%);    
+}
+.content{
+   color: white;
+   display: flex;
+   /* background: rgb(247, 181, 58); */
+   background: rgba(255, 255, 255, 0.2);
+   border-radius: 20px;
+   width: 80%;
+   height: 600px;
+   position: relative;
+}
+.part{
+   width: 50%;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.conection{
+   margin-top: 10px;
+   margin-bottom: 40px;
+}
+.inscription{
+   margin-bottom: 30px;
+}
+.PASSE{
+   background: transparent;
+   height: 600px;
+   width: 50px;
+   display: flex;
+   text-decoration: none;
+   color: transparent;
+   align-items: center;
+}
+p{
+   font-size: 40px;
+}
+.btn{
+   color: white;
+   text-decoration: none;
+   font-size: 30px;
+   border: 1px solid black;
+   align-items: center;
+   height: 50px;
+   padding: 10px 30px 0px 30px;
+   border-radius: 30px;
+}
+
+.btn:hover{
+   transition: 1s;
+   background: black;
+   color: white;
+   border: 2px solid white;
+}

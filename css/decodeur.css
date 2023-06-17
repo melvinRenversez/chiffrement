@@ -1,0 +1,81 @@
+body{
+   background: gray;
+}
+
+.content{
+   margin-top: 10px;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.shadow{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   height: 100%;
+   padding: 30px;
+   border-radius: 20px;
+   background: rgba(0,0,0,0.4);
+   box-shadow: 1px 3px 62px 12px rgba(0,0,0,0.7);
+   -webkit-box-shadow: 1px 3px 62px 12px rgba(0,0,0,0.7);
+   -moz-box-shadow: 1px 3px 62px 12px rgba(0,0,0,0.7);
+}
+
+.input{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+}
+
+.submit{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+}
+
+.finish{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 10px;
+}
+
+textarea{
+   resize: vertical;
+   width: 850px;
+   min-height: 200px;
+}
+
+p{
+   color: white;
+   font-size: 20px;
+}
+
+button{
+   height: 50px;
+   width: 100px;
+   border-radius: 20px;
+   cursor: pointer;
+   transition: 1s;
+}
+
+button:hover{
+   background: black;
+   color: white;
+}
+
+a{
+   font-size: 20px;
+   color: white;
+   position: sticky;
+   top: 10px;
+   text-decoration: none;
+   border: 1px solid black;
+   padding: 20px 40px 20px 40px;
+   border-radius: 20px;
+}
